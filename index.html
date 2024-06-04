@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Portfolio</title>
+  </head>
+
+  <body class="w-full h-screen overflow-x-hidden p-3">
+    <!-- Main container -->
+    <div class="container w-full">
+      <!-- Desktop Navigation -->
+      <nav
+        class="w-full flex justify-between sticky top-0 lg:static z-50 bg-white"
+      >
+        <h1 class="text-2xl font-bold">Portfolio</h1>
+        <div class="link flex gap-10 capitalize hidden lg:flex">
+          <a class="font-medium" href="#">Home</a>
+          <a href="#">Education</a>
+          <a href="#">Experience</a>
+          <a href="#">Projects</a>
+        </div>
+        <div class="lg:hidden text-2xl">
+          <i class="ri-menu-3-fill"></i>
+        </div>
+      </nav>
+      <!-- End Desktop Navigation -->
+
+      <!-- Home Section -->
+      <div class="home flex flex-col justify-center items-center">
+        <!-- Profile Image -->
+        <div
+          class="circle w-52 h-52 lg:w-80 lg:h-80 rounded-full bg-cyan-500 mx-auto overflow-hidden"
+        >
+          <img
+            src="https://i.pinimg.com/564x/69/b4/3b/69b43bbc3a9f786dbd9560dc5a75ced2.jpg"
+            alt="Profile Image"
+          />
+        </div>
+        <!-- End Profile Image -->
+
+        <!-- Info Section -->
+        <div
+          class="info mt-3 flex flex-col px-2 text-center w-full lg:text-2xl capitalize font-medium"
+        >
+          <h1>
+            Hello, I am Pritam Sarkar, a
+            <span class="text-cyan-600 font-extrabold">WEB Developer</span> from
+            Pune.
+          </h1>
+          <h1>
+            Frontend
+            <span class="text-red-600 font-extrabold">Plus</span> Backend
+            Developer. Full Responsive with the latest framework.
+          </h1>
+          <h1>We work freelancing and provide Freelancer work.</h1>
+          <p
+            class="mt-5 text-sm tracking-wider leading-7 lg:w-3/5 mx-auto opacity-80"
+          >
+            In the bustling tech hub of Pune, professionals across various
+            industries converge, each bringing unique talents and expertise to
+            the table. Among them is Pritam Sarkar, a skilled Software Developer
+            at XYZ Tech Solutions, whose journey in the world of technology is
+            marked by a blend of innovation, proficiency, and dedication.
+          </p>
+        </div>
+        <!-- End Info Section -->
+
+        <!-- Button Section -->
+        <div
+          class="flex flex-col md:flex-row items-center justify-center gap-6 mt-5"
+        >
+          <button
+            class="py-2 px-3 border-black border-2 rounded-full w-36 text-lg"
+          >
+            Download CV
+          </button>
+          <button
+            class="py-2 px-3 bg-black text-white border-black border-2 rounded-full w-36 text-lg"
+          >
+            Contact Info
+          </button>
+        </div>
+        <!-- End Button Section -->
+      </div>
+      <!-- End Home Section -->
+
+      <!-- skills sections  -->
+      <div
+        class="skills w-full flex justify-center items-center flex-col mt-10"
+      >
+        <h1 class="font-black text-4xl mb-3">My Skills and Tools</h1>
+        <p class="opacity-60 font-bold">
+          High skills and Progressive enhancement
+        </p>
+        <p class="opacity-60 font-bold">design systems & UI Engineering</p>
+        <div class="showSkliss">
+          <div class="flex gap-5 mt-5 flex-wrap justify-center">
+            <div class="text-center">
+              <img class="h-16 w-16" src="Icons/Langusges/html-5.png" alt="" />
+              <h3>HTML</h3>
+            </div>
+            <div class="text-center">
+              <img class="h-16 w-16" src="Icons/Langusges/css-3.png" alt="" />
+              CSS
+            </div>
+            <div class="text-center">
+              <img class="h-16 w-16" src="Icons/Langusges/mongo.PNG" alt="" />
+              MongoDB
+            </div>
+            <div class="text-center">
+              <img class="h-16 w-16" src="Icons/Langusges/express.PNG" alt="" />
+              Express JS
+            </div>
+            <div class="text-center">
+              <img
+                class="h-16 w-16"
+                src="Icons/Langusges/Bootstrap.png"
+                alt=""
+              />
+              <h3>Bootstrap</h3>
+            </div>
+            <div class="text-center">
+              <img
+                class="h-16 w-16"
+                src="Icons/Langusges/java script.PNG"
+                alt=""
+              />
+              <h3>Java Script</h3>
+            </div>
+            <div class="text-center">
+              <img class="h-16 w-16" src="Icons/Langusges/Node_js.png" alt="" />
+              <h3>Node Ja</h3>
+            </div>
+            <div class="text-center">
+              <img class="h-16 w-16" src="Icons/Langusges/React.png" alt="" />
+              <h3>REACT</h3>
+            </div>
+            <div class="text-center">
+              <img class="h-16 w-16" src="Icons/Langusges/figms.PNG" alt="" />
+              <h3>Figma</h3>
+            </div>
+            <div class="text-center">
+              <img
+                class="h-16 w-16"
+                src="Icons/Langusges/chatgpt-icon.png"
+                alt=""
+              />
+              <h3>Chat GPT</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end skills sections  -->
+      <!-- Education Section -->
+      <div class="container w-full h-screen mt-20 flex flex-col px-0">
+        <h1 class="text-2xl mb-5 font-extrabold text-3xl text-center">
+          Education
+        </h1>
+
+        <div class="md:flex md:justify-center gap-10 md:w-fit">
+          <!-- First College -->
+          <div class="collages md:flex md:flex-col md:w-1/4 mb-10">
+            <div
+              class="2stCollage border-slate-400 border-2 px-2 rounded-xl md:w-fit lg:w-fit"
+            >
+              <div class="collageinfiimg flex gap-5 items-center">
+                <div
+                  class="CollageIcons rounded-full h-20 w-20 bg-red-200 overflow-hidden"
+                >
+                  <img
+                    class="w-full h-full"
+                    src="https://i.pinimg.com/736x/34/cb/32/34cb328156cccff85bc5ac61dd0a59f2.jpg"
+                    alt="College Logo"
+                  />
+                </div>
+                <h1 class="text-xl font-bold">
+                  G.H. Raisoni University Of Amravati
+                </h1>
+              </div>
+            </div>
+            <img
+              class="rounded-md"
+              src="https://content.jdmagicbox.com/comp/nagpur/s7/0712px712.x712.140624100912.w3s7/catalogue/g-h-raisoni-academy-of-engineering-and-technology-butibori-midc-nagpur-engineering-colleges-mmigpi.jpg"
+              alt="College Image"
+            />
+          </div>
+          <!-- End First College -->
+
+          <!-- Second College -->
+          <div class="collages md:flex md:flex-col md:w-1/4">
+            <div
+              class="2stCollage border-slate-400 border-2 px-2 rounded-xl md:w-fit lg:w-fit"
+            >
+              <div class="collageinfiimg flex gap-5 items-center py-2">
+                <div
+                  class="CollageIcons rounded-full h-20 w-20 bg-red-200 overflow-hidden"
+                >
+                  <img
+                    class="w-full h-full"
+                    src="https://i.pinimg.com/564x/af/ce/3b/afce3b2913b2c584eba7e94751e23e36.jpg"
+                    alt="College Logo"
+                  />
+                </div>
+                <h1 class="text-xl font-bold">Singhgad Pune University</h1>
+              </div>
+            </div>
+            <img
+              class="rounded-md w-full"
+              src="https://www.gkseries.com/blog/wp-content/uploads/2020/03/GH-Raisoni-Institute-of-Engineering-and-Technology-Nagpur.jpg"
+              alt="College Image"
+            />
+          </div>
+          <!-- End Second College -->
+        </div>
+
+        <!-- Course Section -->
+        <div class="cours flex flex-col items-center mt-5">
+          <h1 class="font-bold text-2xl">Followed By---------></h1>
+          <div class="flex flex-col items-center w-full">
+            <img
+              class="w-5/6 md:w-3/5"
+              src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/6efdd5e7f0d663cf231d0f2040be0a1e.png"
+              alt="Course Image"
+            />
+            <div class="flex items-center justify-center w-full">
+              <img
+                src="https://media.licdn.com/dms/image/C4D0BAQGyA2WMJxAUaQ/company-logo_200_200/0/1672471185737/the_sheryians_coding_school_logo?e=2147483647&v=beta&t=LXnkedJM8kDtDkX0bov0yKmwpHwI_2wU6NojzS6_1K0"
+                alt="Coding School Logo"
+              />
+              <img
+                class="h-36 w-36"
+                src="https://www.codewithharry.com/img/logo-blue.png"
+                alt="Code with Harry Logo"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- End Course Section -->
+      </div>
+      <!-- End Education Section -->
+    </div>
+    <!-- End Main Container -->
+  </body>
+</html>
