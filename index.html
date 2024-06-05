@@ -11,28 +11,41 @@
     <title>Portfolio</title>
   </head>
 
-  <body class="w-full h-screen overflow-x-hidden p-3">
+  <body class="w-full h-screen overflow-x-hidden">
     <!-- Main container -->
-    <div class="container w-full">
+    <nav
+      class="w-full py-2 flex justify-between fixed top-0 lg:static z-50 px-3 bg-white"
+    >
+      <h1 class="text-2xl font-bold">Portfolio</h1>
+      <div class="link flex gap-10 capitalize hidden lg:flex">
+        <a class="font-medium" href="#">Home</a>
+        <a href="#">Education</a>
+        <a href="#">Experience</a>
+        <a href="#">Projects</a>
+      </div>
+      <div class="lg:hidden text-2xl">
+        <i class="ri-menu-3-fill ham"> </i>
+      </div>
+    </nav>
+    <div
+      class="mobileNav md:hidden w-3/5 h-screen fixed z-50 right-0 top-12 bg-white p-5 hidden"
+    >
+  <ul class="w-full flex flex-col gap-20  font-semibold items-center text-xl mt-10">
+    <li class="underline ">Home</li>
+    <li class="underline ">Skills</li>
+    <li class="underline ">Projects</li>
+    <li class="underline ">Education</li>
+    <li class="underline ">About</li>
+    <li class="underline ">Contact Me</li>
+  </ul>
+  </div>
+    <div class="container w-full p-3 blurEle">
       <!-- Desktop Navigation -->
-      <nav
-        class="w-full flex justify-between sticky top-0 lg:static z-50 bg-white"
-      >
-        <h1 class="text-2xl font-bold">Portfolio</h1>
-        <div class="link flex gap-10 capitalize hidden lg:flex">
-          <a class="font-medium" href="#">Home</a>
-          <a href="#">Education</a>
-          <a href="#">Experience</a>
-          <a href="#">Projects</a>
-        </div>
-        <div class="lg:hidden text-2xl">
-          <i class="ri-menu-3-fill"></i>
-        </div>
-      </nav>
+
       <!-- End Desktop Navigation -->
 
       <!-- Home Section -->
-      <div class="home flex flex-col justify-center items-center">
+      <div class="home flex flex-col justify-center items-center mt-10">
         <!-- Profile Image -->
         <div
           class="circle w-52 h-52 lg:w-80 lg:h-80 rounded-full bg-cyan-500 mx-auto overflow-hidden"
@@ -161,11 +174,11 @@
       <!-- end skills sections  -->
 
       <!-- PROJECTS  -->
-      <div class="px-5 mt-10">
+      <div class=" mt-10">
         <h1 class="text-4xl font-medium mb-5">Projects</h1>
         <div class="w-full flex gap-10 flex-wrap justify-center">
           <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:slate-200 border-slate-400"
           >
             <a href="#">
               <img class="rounded-t-lg" src="WebImg/port.PNG" alt="" />
@@ -173,14 +186,15 @@
             <div class="p-5">
               <a href="#">
                 <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                  class="mb-2 text-2xl font-bold tracking-tight text-zinc-950"
                 >
-                  Noteworthy technology acquisitions 2021
+                  Portfolio
                 </h5>
               </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Here are the biggest enterprise technology acquisitions of 2021
-                so far, in reverse chronological order.
+              <p class="mb-3 font-normal text-zinc-500">
+                Here is portfolio Website Project . its use html and the
+                Tailwind css , it is Responsive with Desktop and Tablet & Mobile
+                also
               </p>
               <a
                 href="#"
@@ -206,7 +220,7 @@
             </div>
           </div>
           <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:slate-200 border-slate-400"
           >
             <a href="#">
               <img class="rounded-t-lg" src="WebImg/WishboxMain.PNG" alt="" />
@@ -214,12 +228,12 @@
             <div class="p-5">
               <a href="#">
                 <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                  class="mb-2 text-2xl font-bold tracking-tight text-zinc-950"
                 >
                   Noteworthy technology acquisitions 2021
                 </h5>
               </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-normal text-zinc-500">
                 Here are the biggest enterprise technology acquisitions of 2021
                 so far, in reverse chronological order.
               </p>
@@ -247,7 +261,7 @@
             </div>
           </div>
           <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:slate-200 border-slate-400"
           >
             <a href="#">
               <img class="rounded-t-lg" src="WebImg/anima.PNG" alt="" />
@@ -255,12 +269,12 @@
             <div class="p-5">
               <a href="#">
                 <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                  class="mb-2 text-2xl font-bold tracking-tight text-zinc-950"
                 >
                   Noteworthy technology acquisitions 2021
                 </h5>
               </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-normal text-zinc-500">
                 Here are the biggest enterprise technology acquisitions of 2021
                 so far, in reverse chronological order.
               </p>
@@ -288,7 +302,7 @@
             </div>
           </div>
           <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:slate-200 border-slate-400"
           >
             <a href="#">
               <img class="rounded-t-lg" src="WebImg/Wishbox2.PNG" alt="" />
@@ -296,12 +310,12 @@
             <div class="p-5">
               <a href="#">
                 <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                  class="mb-2 text-2xl font-bold tracking-tight text-zinc-950"
                 >
                   Noteworthy technology acquisitions 2021
                 </h5>
               </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-normal text-zinc-500">
                 Here are the biggest enterprise technology acquisitions of 2021
                 so far, in reverse chronological order.
               </p>
@@ -329,7 +343,7 @@
             </div>
           </div>
           <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:slate-200 border-slate-400"
           >
             <a href="#">
               <img class="rounded-t-lg" src="WebImg/tailwind.PNG" alt="" />
@@ -337,12 +351,12 @@
             <div class="p-5">
               <a href="#">
                 <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                  class="mb-2 text-2xl font-bold tracking-tight text-zinc-950"
                 >
                   Noteworthy technology acquisitions 2021
                 </h5>
               </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-normal text-zinc-500">
                 Here are the biggest enterprise technology acquisitions of 2021
                 so far, in reverse chronological order.
               </p>
@@ -441,12 +455,14 @@
         <div class="cours flex flex-col items-center mt-5">
           <h1 class="font-bold text-2xl">Followed By---------></h1>
           <div class="flex flex-col items-center w-full">
-            <img
-              class="w-5/6 md:w-3/5"
-              src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/6efdd5e7f0d663cf231d0f2040be0a1e.png"
-              alt="Course Image"
-            />
-            <div class="flex items-center justify-center w-full">
+            <div
+              class="flex items-center justify-center w-full flex-wrap justify-center"
+            >
+              <img
+                class="w-5/6 md:w-52"
+                src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/6efdd5e7f0d663cf231d0f2040be0a1e.png"
+                alt="Course Image"
+              />
               <img
                 src="https://media.licdn.com/dms/image/C4D0BAQGyA2WMJxAUaQ/company-logo_200_200/0/1672471185737/the_sheryians_coding_school_logo?e=2147483647&v=beta&t=LXnkedJM8kDtDkX0bov0yKmwpHwI_2wU6NojzS6_1K0"
                 alt="Coding School Logo"
@@ -465,7 +481,7 @@
 
       <!-- constact page  -->
       <section class="bg-white flex w-full justify-center items-center">
-        <div class="container px-6 py-12 mx-auto">
+        <div class="container md:px-6 py-12 mx-auto">
           <div class="lg:flex lg:items-center lg:-mx-6">
             <div class="lg:w-1/2 lg:mx-6">
               <h1
@@ -684,5 +700,6 @@
     </div>
 
     <!-- End Main Container -->
+    <script src="script.js"></script>
   </body>
 </html>
